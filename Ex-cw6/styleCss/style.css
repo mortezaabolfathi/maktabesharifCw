@@ -1,0 +1,112 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,152,63,1) 92%, rgba(252,176,69,1) 100%);
+    direction: rtl;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    font-family: "gp3";
+  }
+  h3{
+    color: #4a4646;
+
+  }
+  /* start cod: */
+  .mainBox {
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    background-color: white;
+    /* margin-top: 80px; */
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 45px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+}
+button{
+    height: 35px;
+    width: 100%;
+    padding: 5px 25px;
+    color:white;
+    border-radius: 15px;
+    border-style: none;
+    margin-top: 20px;
+}
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.green {
+    background-color: #6DE284;
+}
+.red {
+    background-color: rgba(255, 0, 0, 0.656);
+
+}
+
+.box-right{
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+/* box left */
+.box-left{
+    /* background-color: rgb(55, 61, 61); */
+    width: 30%;
+    height: 350px;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}  
+
+.box-left div{
+    position: relative;
+}
+.userimage {
+    position: absolute;
+    right: 12px;
+    top: 18px;
+    width: 27px;
+}
+input {
+    margin: 10px 0px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    width: 100%;
+    height: 40px;
+    padding-right: 40px;
+}
+.userEmail{
+    position: absolute;
+    right: 12px;
+    top: 17px;
+    width: 25px;    
+}
+.lock{
+    position: absolute;
+    right: 12px;
+    top: 18px;
+    width: 25px;
+}
+/* right box */
+.box-right div{
+    position: relative;
+}
+
+/* font  */
+@font-face {
+    font-family: "gp3";
+    src: url("/font/B-NAZANIN.TTF");
+}
