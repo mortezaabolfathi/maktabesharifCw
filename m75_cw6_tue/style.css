@@ -1,0 +1,87 @@
+@font-face {
+  font-family: vazir;
+  src: url("./fonts/Vazirmatn-VariableFont_wght.ttf");
+}
+* {
+  font-family: vazir;
+  box-sizing: border-box;
+}
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: vazir;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  text-align: center;
+}
+
+.main {
+  width: 70%;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 1px #424242;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+}
+.right,
+.left {
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  text-align: center;
+  padding: 0;
+  vertical-align: middle;
+}
+.right h4,
+.left h4 {
+  color: #616161;
+}
+.right input,
+.left input {
+  display: block;
+  width: 200px;
+  padding: 8px 30px 8px 4px;
+  margin: 10px auto;
+  border-radius: 20px;
+  border: 0.5px solid #b0bec5;
+  background-color: #fafafa;
+  transition: 0.5s all;
+}
+
+input[type="submit"] {
+  outline: none;
+  border: 0;
+  color: #fff;
+  padding: 8px 4px;
+  box-shadow: 0.2px 0.2px 1px 0.2px #424242;
+}
+.right input:hover,
+.left input:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+#sign-up {
+  background-color: #ff3d00;
+}
+#sign-in {
+  background-color: #00c853;
+}
+.right .icons,
+.left .icons {
+  display: inline-block;
+  position: relative;
+}
+.right .icons svg,
+.left .icons svg {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: #546e7a;
+  z-index: 100;
+}
